@@ -98,19 +98,4 @@
         app:layout_constraintTop_toBottomOf="@+id/loginWithGoogle"
         app:layout_constraintVertical_bias="0.03" />
 
-    <Button
-        android:id="@+id/testStuff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:onClick="testing"
-
-        android:text="Test Stuff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register"
-        app:layout_constraintVertical_bias="0.03" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

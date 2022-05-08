@@ -38,6 +38,7 @@
     <string name="enter_date">Enter Date</string>
     <string name="set_to_next_day">Set to next day</string>
     <string name="set_time">Set time</string>
+    <string name="closest_cinema">Closest Cinema</string>
 
     <string-array name="movie_titles">
         <item>Top Gun Maverick</item>

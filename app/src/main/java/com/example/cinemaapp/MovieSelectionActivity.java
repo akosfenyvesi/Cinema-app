@@ -92,8 +92,7 @@ public class MovieSelectionActivity extends AppCompatActivity {
             }
         });
 
-//        datePicker = findViewById(R.id.movieDatePicker);
-        System.out.println(new Timestamp(new Date()).getSeconds());
+
         mRecyclerView = findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridNumber));
         mMovieList = new ArrayList<>();

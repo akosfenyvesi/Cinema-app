@@ -209,7 +209,6 @@ public class SeatSelectionActivity extends AppCompatActivity implements View.OnC
             view.setBackgroundResource(R.drawable.ic_seats_reserved);
             view.setTag(STATUS_SELECTED);
             seatsArrayList.get(i).set(j, "S");
-            System.out.println(i + " " + j);
         } else if ((int)view.getTag() == STATUS_SELECTED) {
             view.setBackgroundResource(R.drawable.ic_seats_book);
             view.setTag(STATUS_AVAILABLE);

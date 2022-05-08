@@ -63,6 +63,8 @@ public class TicketsActivity extends AppCompatActivity {
     private TextView mClosestCinema;
     int PERMISSION_ID = 44;
 
+    private int requestCounter = 0;
+
     private Location cinemaLocation = new Location("Cinema");
 
     @Override
@@ -117,6 +119,7 @@ public class TicketsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         } else {
+            if (requestCounter < 10)
             requestPermissions();
         }
     }
@@ -151,6 +154,7 @@ public class TicketsActivity extends AppCompatActivity {
         ActivityCompat.requestPermissions(this, new String[]{
                 Manifest.permission.ACCESS_COARSE_LOCATION,
                 Manifest.permission.ACCESS_FINE_LOCATION}, PERMISSION_ID);
+        requestCounter++;
     }
 
     private boolean isLocationEnabled() {

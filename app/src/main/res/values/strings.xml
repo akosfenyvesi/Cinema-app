@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Cinema App</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="login_as_a_guest">Login as a guest</string>
+    <string name="login_with_google">Log in with Google</string>
+    <string name="sign_up">Sign up</string>
+    <string name="repeat_password">Re-enter password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="student">Student</string>
+    <string name="normal">Normal</string>
+    <string name="discount">Discount</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="city">City</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log out</string>
+    <string name="movie_title_placeholder">The Batman</string>
+    <string name="movie_genre_placeholder">Action, Adventure</string>
+    <string name="movie_divider">|</string>
+    <string name="movie_playtime_placeholder">176 mins</string>
+    <string name="choose_seats">Choose seats</string>
+    <string name="my_tickets">My Tickets</string>
+    <string name="delete_booking">Delete Booking</string>
+    <string name="book_now">Book Now</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="set_to_next_day">Set to next day</string>
+    <string name="set_time">Set time</string>
+
+    <string-array name="movie_titles">
+        <item>Top Gun Maverick</item>
+        <item>Ambulance</item>
+        <item>Doctor Strange in the Multiverse of Madness</item>
+        <item>Everything Everywhere All at Once</item>
+        <item>Kaamelott - Premier volet</item>
+        <item>The Lost City</item>
+        <item>Morbius</item>
+    </string-array>
+
+    <array name="movie_images">
+        <item>@drawable/maverick</item>
+        <item>@drawable/ambulance</item>
+        <item>@drawable/strange</item>
+        <item>@drawable/everything</item>
+        <item>@drawable/kamelot</item>
+        <item>@drawable/lost</item>
+        <item>@drawable/morbius</item>
+    </array>
+
+    <string-array name="movie_descriptions">
+        <item>After more than thirty years of service as one of the Navy\'s top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.</item>
+        <item>Two robbers steal an ambulance after their heist goes awry.</item>
+        <item>After the events of Avengers: Endgame, Dr. Stephen Strange continues his research on the Time Stone. But an old friend turned enemy seeks to destroy every sorcerer on Earth, messing with Strange\'s plan, causing him to unleash an unspeakable evil. ATTENTION! The flickering lights accompanying several scenes in Doctor Strange in the Multiverse of Madness may affect viewers who are susceptible to photosensitive epilepsy or otherwise sensitive to light.</item>
+        <item>An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.</item>
+        <item>The sequel on the big screen to the cult series of Alexandre Astier, an offbeat version of the legend of the Knights of the Round Table. Hidden in Rome, King Arthur plans his comeback to oppose the army of his former friend Lancelot.</item>
+        <item>A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.</item>
+        <item>Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.</item>
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>Action, Drama</item>
+        <item>Action, Thriller</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Action, Sci-Fi</item>
+        <item>Comedy</item>
+        <item>Comedy, Romance</item>
+        <item>Action, Adventure</item>
+    </string-array>
+
+    <array name="movie_ratings">
+        <item>@drawable/ic_rating_12</item>
+        <item>@drawable/ic_rating_18</item>
+        <item>@drawable/ic_rating_16</item>
+        <item>@drawable/ic_rating_16</item>
+        <item>@drawable/ic_rating_12</item>
+        <item>@drawable/ic_rating_12</item>
+        <item>@drawable/ic_rating_16</item>
+    </array>
+
+    <string-array name="movie_platimes">
+        <item>131 minutes</item>
+        <item>136 minutes</item>
+        <item>126 minutes</item>
+        <item>139 minutes</item>
+        <item>120 minutes</item>
+        <item>112 minutes</item>
+        <item>104 minutes</item>
+    </string-array>
+
+    <string-array name="hours_array">
+        <item>15:00,16:00,18:00</item>
+        <item>15:00,16:00,18:00</item>
+        <item>16:30,17:30,19:30</item>
+        <item>15:00,16:00,18:00</item>
+        <item>18:00,20:00,22:00</item>
+        <item>12:15,13:30,14:45</item>
+        <item>15:00,16:00,18:00</item>
+    </string-array>
+
+    <string-array name="cities_array">
+        <item>Budapest</item>
+        <item>Debrecen</item>
+        <item>Szeged</item>
+        <item>Miskolc</item>
+        <item>Pécs</item>
+        <item>Győr</item>
+        <item>Nyíregyháza</item>
+        <item>Kecskemét</item>
+    </string-array>
+
+</resources>

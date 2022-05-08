@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/loginEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/email_address"
+
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:id="@+id/loginPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginEmailEditText"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="@string/password"
+
+            android:inputType="textPassword"
+            android:autofillHints="password" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginPasswordEditText"
+            android:layout_marginTop="31dp"
+            android:onClick="login"
+
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/loginAsGuestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginButton"
+            android:layout_marginTop="14dp"
+            android:onClick="loginAsGuest"
+
+            android:text="@string/login_as_a_guest" />
+
+        <Button
+            android:id="@+id/loginWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginAsGuestButton"
+            android:layout_marginTop="14dp"
+            android:onClick="loginWithGoogle"
+
+            android:text="@string/login_with_google" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginWithGoogle"
+            android:layout_marginTop="14dp"
+            android:onClick="registration"
+
+            android:text="@string/sign_up" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
